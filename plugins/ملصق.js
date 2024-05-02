@@ -16,7 +16,7 @@ if (!img) throw `*أجب على مقطع فيديو أو صورة أو أدخل 
 
 let out
 try {
-stiker = await sticker(img, false, global.packname: '𝕚𝕥𝕒𝕔𝕔𝕙𝕚𝕟𝕠 𝕓𝕠𝕥', global.author: '@/مـــايــــكــــي•••   ✌︎⃢☕︎  ')
+stiker = await sticker(img, false, global.packname, global.author)
 } catch (e) {
 console.error(e)
 } finally {
@@ -44,7 +44,7 @@ else throw '*خطأ ، يرجى المحاولة مرة أخرى. لا تنسي 
 }}
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
 handler.tags = ['sticker']
-handler.command = /^s|ملصق?$/i
+handler.command = /^ستك|ملصق?$/i
 export default handler
 
 const isUrl = (text) => {
