@@ -228,7 +228,7 @@ unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
 })
 if (SBprekey.length === 0) return; 
 } catch (err) {
-console.log(chalk.bold.red(`[😔] Something went wrong during deletion, files not deleted`))
+console.log(chalk.bold.red(`[😎] Something went wrong during deletion, files not deleted`))
 }}
 
 function purgeOldFiles() {
@@ -490,7 +490,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `𝐵𝛩𝑇-𝑁𝐸𝑍𝑈𝐾𝛩 [ ⏳ ] Uptime: ${uptime}`;
+  const bio = `𝕚𝕥𝕒𝕔𝕔𝕙𝕚𝕟𝕠 𝕓𝕠𝕥 [ ⏳ ] Uptime: ${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
