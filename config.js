@@ -43,8 +43,8 @@ global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`;
-global.gt = '★JOHAN★';
-global.mysticbot = '★JOHAN★';
+global.gt = '𝕚𝕥𝕒𝕔𝕔𝕙𝕚𝕟𝕠 𝕓𝕠𝕥';
+global.mysticbot = '𝕚𝕥𝕒𝕔𝕔𝕙𝕚𝕟𝕠 𝕓𝕠𝕥';
 global.md = 'https://chat.whatsapp.com/FE54Nj3CorLAcuEzpXZHA7';
 global.mysticbot = 'https://chat.whatsapp.com/FE54Nj3CorLAcuEzpXZHA7';
 global.waitt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
