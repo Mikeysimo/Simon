@@ -16,7 +16,7 @@ if (!img) throw `*أجب على مقطع فيديو أو صورة أو أدخل 
 
 let out
 try {
-stiker = await sticker(img, false, global.packname, global.author)
+stiker = await sticker(img, false, global.packname: '𝕚𝕥𝕒𝕔𝕔𝕙𝕚𝕟𝕠 𝕓𝕠𝕥', global.author: '@/مـــايــــكــــي•••   ✌︎⃢☕︎  ')
 } catch (e) {
 console.error(e)
 } finally {
